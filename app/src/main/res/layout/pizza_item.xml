@@ -42,15 +42,6 @@
         android:layout_marginStart="4dp"
         android:text="Prep Time" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="20dp"
-        app:srcCompat="@android:drawable/ic_menu_view" />
-
     <TextView
         android:id="@+id/idf"
         android:layout_width="wrap_content"
@@ -60,7 +51,6 @@
         android:text="ID"
         android:visibility="invisible" />
         
-    <!-- View count section -->
     <ImageView
         android:id="@+id/view_icon"
         android:layout_width="16dp"
@@ -78,16 +68,4 @@
         android:layout_toEndOf="@+id/view_icon"
         android:layout_marginStart="4dp"
         android:text="0 views" />
-        
-    <!-- Share button -->
-    <ImageButton
-        android:id="@+id/share_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/imageView2"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="4dp"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        app:srcCompat="@android:drawable/ic_menu_share" />
 </RelativeLayout>

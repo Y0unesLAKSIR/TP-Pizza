@@ -7,14 +7,12 @@
     android:orientation="vertical"
     tools:context=".PizzaDetailsActivity">
 
-    <!-- Header with back button, title and share button -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFEB3B"
         android:padding="16dp">
 
-        <!-- Back Button -->
         <ImageButton
             android:id="@+id/backButton"
             android:layout_width="48dp"
